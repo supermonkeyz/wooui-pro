@@ -1,0 +1,47 @@
+:root {
+  /* basic colors */
+  --w-color-light: #fff;
+  --w-color-gray-1: #333;
+  --w-color-gray-2: #939393;
+  --w-color-gray-3: #838383;
+  --w-color-gray-4: #f2f2f5;
+  --w-color-gray-5: #fbfbfb;
+  --w-color-gray-6: #f0f1f4;
+  --w-color-gray-7: #ccc;
+  --w-color-gray-8: #e9e9e9;
+  --w-color-gray-9: #f8f8fb;
+  --w-color-gray-10: #dfe1e8;
+  --w-color-orange-1: #ff8200;
+  --w-color-orange-2: #ff5900;
+  --w-color-orange-3: #eb7350;
+  --w-color-red: #e14123;
+  --w-color-red-2: #f00;
+  /* color set */
+  --w-brand: var(--w-color-orange-1);
+  --w-main: var(--w-color-gray-1);
+  --w-sub: var(--w-color-gray-2);
+  --w-hover: rgba(255, 130, 0, 0.1);
+  --w-contrast: var(--w-color-light);
+  --w-error: var(--w-color-red-2);
+
+  /* Background */
+
+  --w-retweet-background: var(--w-color-gray-6);
+  --w-repost-background: var(--w-color-gray-9);
+  --w-card-background: var(--w-color-light);
+  --w-input-background: var(--w-color-gray-6);
+  --w-drop-background: var(--w-color-gray-6);
+
+  /* Border */
+  --w-dividing-line: var(--w-color-gray-6);
+  --w-layer-border: var(--w-color-gray-8);
+  --w-image-border: rgba(0, 0, 0, 0.05);
+
+  /*base font-size*/
+  --w-base-font-size: 16;
+  /* indexs level*/
+  --w-index-layer: 9999;
+  --w-index-mask: 999;
+  --w-index-nav: 99;
+  --w-index-flow: 9;
+}

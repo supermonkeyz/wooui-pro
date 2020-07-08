@@ -1,0 +1,23 @@
+{
+  "Button": "./button",
+  "Spinner": "./spinner",
+  "...Box": "./box",
+  "Icon": "./icon",
+  "Picture": "./picture",
+  "Avatar": "./avatar",
+  "Fonticon": "./fonticon",
+  "Badge": "./badge",
+  "Like": "./like",
+  "Panel": "./panel",
+  "Divider": "./divider",
+  "Radio": "./radio",
+  "Checkbox": "./checkbox",
+  "...Tab": "./tab",
+  "Modal": "./modal",
+  "...Pop": "./pop",
+  "Switch": "./switch",
+  "Toast": "./toast",
+  "Dialog": "./dialog",
+  "Input": "./input",
+  "Tip": "./tip"
+}

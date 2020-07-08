@@ -1,0 +1,29 @@
+image: 'hub.weibo.cn/h5/runner'
+stages:
+  - build
+  - stage
+build:
+  tags:
+    - HTML5
+  stage: build
+  only:
+    - master
+  script:
+    - yarn install
+    - yarn woo-pack
+  artifacts:
+    paths:
+    - dist
+pages:
+  script:
+  - yarn install
+  - yarn styleguide:build
+  - cp -r styleguide public
+  artifacts:
+    paths:
+    - public
+  tags:
+    - HTML5
+  stage: stage
+  only:
+  - master
